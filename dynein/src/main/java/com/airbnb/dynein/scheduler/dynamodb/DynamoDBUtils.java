@@ -48,7 +48,7 @@ class DynamoDBUtils {
   }
 
   @AllArgsConstructor(staticName = "of")
-  public class Condition {
+  public static class Condition {
     private Attribute attribute;
     private String operator;
     private Value value;
