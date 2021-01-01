@@ -5,7 +5,7 @@ mainClassName = 'com.airbnb.dynein.example.DyneinExampleApplication'
 dependencies {
   compile project(':dynein')
   compile libraries.dropwizard_core
-
+  compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.4.0-b180830.0359'
   compileOnly libraries.lombok
   annotationProcessor libraries.lombok
 }
